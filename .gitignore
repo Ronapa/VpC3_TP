@@ -1,0 +1,24 @@
+# datos, pesos y salidas (pesadas, no van al repo)
+/data/
+/outputs/
+/cache/
+*.pt
+*.pth
+*.ckpt
+
+# notebooks: checkpoints de autosave
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# sistema / editor
+.DS_Store
+*:Zone.Identifier
+
+# copias de trabajo de notebooks
+notebooks/backup/
